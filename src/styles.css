@@ -3,11 +3,10 @@
   --secondary-color-1: #fdffcd;
   --secondary-color-2: #ffebbb;
   --secondary-color-3: #ffcab0;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  background: var(--secondary-color-3);
+  background: var(--secondary-color-2) !important;
   margin-top: 100px !important;
 }
 
@@ -17,16 +16,36 @@ h2 {
 }
 
 h1 {
+  color: var(--secondary-color-3);
   font-size: 96px !important;
+  font-weight: bold;
 }
 
 h2 {
+  color: var(--secondary-color-3);
   font-size: 48px !important;
+}
+
+img {
+  max-width: 50%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.email-link {
+  color: var(--secondary-color-1);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
 }
 
 .navigation-links {
